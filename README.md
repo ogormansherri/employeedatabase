@@ -86,3 +86,14 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+
+### Heroku notes
+
+`bundle exec rake assets:precompile`
+`git add .`
+`git commit -am "add a note reflecting changes made"`
+`git push`
+`heroku create`
+`git push heroku master`
+`heroku rake db:migrate`
+`heroku db:push`
