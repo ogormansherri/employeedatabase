@@ -20,4 +20,8 @@
 /node_modules
 /yarn-error.log
 
+# Ignore Byebug 
 .byebug_history
+
+# Ignore Spring Files.
+/spring/*.pid
